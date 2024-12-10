@@ -1,0 +1,21 @@
+name: kiosk_keyboard
+description: "A customisable keyboard for Kiosks and other applications which require a custom keyboard implementation"
+version: 0.0.1
+homepage: https://pixelbeard.co/
+repository: https://github.com/PixelBeardAgency/kiosk-keyboard
+issue_tracker: https://github.com/PixelBeardAgency/kiosk-keyboard/issues
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
