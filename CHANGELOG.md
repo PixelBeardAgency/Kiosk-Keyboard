@@ -1,3 +1,7 @@
+## 0.0.2
+
+- Theme parameters are now all optional
+
 ## 0.0.1
 
 - Initial Release
