@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kiosk_keyboard/data/keyboard_key.dart';
 import 'package:kiosk_keyboard/data/layout/keyboard_layout.dart';
-import 'package:kiosk_keyboard/data/theme/default_keyboard_theme.dart';
 import 'package:kiosk_keyboard/data/theme/keyboard_theme.dart';
 import 'package:kiosk_keyboard/presentation/keyboard_key_view.dart';
 
@@ -35,7 +34,7 @@ class OnScreenKeyboard extends StatelessWidget {
                     keyboardKey,
                     altActive: altActive,
                     onKeyPressed: () => onKeyPressed(keyboardKey),
-                    theme: theme ?? DefaultKeyboardTheme.fromContext(context),
+                    theme: theme ?? KeyboardTheme(context),
                   ),
                 )
               ],
